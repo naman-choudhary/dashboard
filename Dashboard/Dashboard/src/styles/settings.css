@@ -7,11 +7,11 @@
 .settings__wrapper {
   padding: 20px;
   border-radius: 5px;
-  background: var(--primary-color);
+  background: #fff;
 }
 
 .settings__title {
-  color: var(--heading-color);
+  color: #000d6b;
   font-weight: 500;
   margin-bottom: 2rem;
 }
@@ -29,28 +29,28 @@
   padding: 7px 25px;
   background: transparent;
   border-radius: 5px;
-  color: var(--heading-color);
+  color: #000d6b;
   font-size: 1rem;
   cursor: pointer;
 }
 
 .active__btn {
-  background: #b7ffe913;
+  background: #010c2913;
 }
 
 .profile__title {
-  color: var(--heading-color);
+  color: #000d6b;
   font-weight: 500;
   margin-bottom: 5px;
 }
 
 .profile__desc {
-  color: var(--small-text-color);
+  color: #000d6b;
   margin-bottom: 2rem;
 }
 
 label {
-  color: var(--heading-color);
+  color: #000d6b;
   margin-bottom: 5px;
   font-size: 0.9rem;
 }
@@ -74,13 +74,13 @@ label {
   padding: 12px 20px;
   border-radius: 5px;
   background: transparent;
-  border: 1px solid #b7ffe913;
+  border: 1px solid #000d6b;
   color: var(--heading-color);
   font-size: 1rem;
 }
 
 .form__group div input::placeholder {
-  color: var(--small-text-color);
+  color: gray;
   font-size: 0.9rem;
 }
 

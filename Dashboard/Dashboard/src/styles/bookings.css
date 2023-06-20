@@ -7,7 +7,7 @@
 
 .booking__title {
   font-size: 1.5rem;
-  color: #fff;
+  color: #000d6b;
   margin-bottom: 2rem;
 }
 
@@ -31,7 +31,7 @@
 .car__item {
   padding: 20px;
   border-radius: 5px;
-  background: var(--primary-color);
+  background: #fff;
   cursor: pointer;
 }
 
@@ -43,18 +43,18 @@
 
 .car__item-tile h3 {
   font-size: 1.3rem;
-  color: var(--heading-color);
+  color: #000d6b;
   font-weight: 400;
 }
 
 .car__item-tile span i {
   font-size: 1.3rem;
-  color: var(--small-text-color);
+  color: #000d6b;
   cursor: pointer;
 }
 
 .car__item-top p {
-  color: var(--small-text-color);
+  color: #000d6b;
   font-size: 0.9rem;
   font-weight: 400;
 }
@@ -75,16 +75,16 @@
   display: flex;
   align-items: center;
   column-gap: 8px;
-  color: rgba(255, 255, 255, 0.829);
+  color: #000d6b;
   font-weight: 300 !important;
 }
 
 .car__bottom-left p i {
-  color: var(--secondary-color);
+  color: #000d6b;
 }
 
 .car__rent {
-  color: rgba(255, 255, 255, 0.829);
+  color: #000d6b;
   font-size: 1.1rem;
 }
 
@@ -98,6 +98,7 @@
 .car__item-tile h3 {
   font-size: 1rem;
   font-weight: 400;
+  color: red;
 }
 
 .car__item-top {

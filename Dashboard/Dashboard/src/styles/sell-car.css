@@ -6,7 +6,7 @@
 
 .sell__car-img {
   padding: 20px;
-  background: var(--primary-color);
+  background: #fff;
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
@@ -18,7 +18,7 @@
 }
 
 .sell__car-img h2 {
-  color: var(--heading-color);
+  color: #000d6b;
   text-align-last: left;
 }
 
@@ -31,21 +31,21 @@
 .tracking__history {
   padding: 20px;
   border-radius: 5px;
-  background: var(--primary-color);
+  background: rgb(6, 113, 113);
   height: 370px;
   padding-bottom: 70px;
   cursor: pointer;
 }
 
 .tracking__history h3 {
-  color: var(--heading-color);
+  color: #000d6b;
   font-weight: 400;
   margin-bottom: 30px;
 }
 
 .sell__car-title {
   margin-bottom: 2rem;
-  color: #fff;
+  color: #000d6b;
   font-weight: 500;
   font-size: 1.5rem;
 }
@@ -60,7 +60,7 @@
 .offer__item {
   padding: 20px;
   border-radius: 5px;
-  background: var(--primary-color);
+  background: rgb(170, 4, 32);
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   column-gap: 2rem;
@@ -69,7 +69,7 @@
 
 .box__01 .client__name {
   font-size: 1.2rem;
-  color: var(--heading-color);
+  color: #000d6b;
   margin-bottom: 10px;
   font-weight: 400;
 }
@@ -81,13 +81,13 @@
 }
 
 .avg__price span {
-  color: #ddd;
+  color: #000d6b;
   font-size: 0.7rem;
   font-weight: 400;
 }
 
 .market__price {
-  color: #ddd;
+  color: #000d6b;
   font-size: 0.8rem;
   margin-bottom: 15px;
   font-weight: 400;
@@ -100,7 +100,7 @@
   align-items: center;
   justify-content: center;
   background: #ef621c;
-  color: #fff;
+  color: #000d6b;
   border-radius: 50px;
   cursor: pointer;
 }
@@ -111,7 +111,7 @@
 }
 
 .circle__wrapper h4 {
-  color: var(--heading-color);
+  color: #000d6b;
   font-weight: 400;
   font-size: 1rem;
   margin-top: 15px;
@@ -136,7 +136,7 @@
 }
 
 .spend__title {
-  color: #ddd;
+  color: #000d6b;
   font-weight: 400;
   font-size: 0.8rem;
 }

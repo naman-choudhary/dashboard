@@ -1,4 +1,5 @@
 import React from "react";
+import Animate from "../Animate";
 import "../styles/bookings.css";
 
 import carData from "../assets/dummy-data/booking-cars.js";
@@ -6,6 +7,7 @@ import CarItem from "../components/UI/CarItem";
 
 const Bookings = () => {
   return (
+    <Animate>
     <div className="bookings">
       <div className="booking__wrapper">
         <h2 className="booking__title">Booking</h2>
@@ -35,6 +37,7 @@ const Bookings = () => {
         </div>
       </div>
     </div>
+    </Animate>
   );
 };
 

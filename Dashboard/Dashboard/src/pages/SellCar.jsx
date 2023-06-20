@@ -1,4 +1,5 @@
 import React from "react";
+import Animate from "../Animate";
 import sellCar from "../assets/images/sell-car.png";
 import "../styles/sell-car.css";
 import TrackingChart from "../charts/TrackingChart";
@@ -8,6 +9,7 @@ const SellCar = () => {
   const percentage = 55;
   const percentage02 = 45;
   return (
+    <Animate>
     <div className="sell__car">
       <div className="sell__car-wrapper">
         <h2 className="sell__car-title">Sell Cars</h2>
@@ -147,6 +149,7 @@ const SellCar = () => {
         </div>
       </div>
     </div>
+    </Animate>
   );
 };
 

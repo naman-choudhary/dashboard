@@ -17,7 +17,7 @@ const recommendCars = [
     rentPrice: 28,
     retweet: "130",
     imgUrl: car2,
-    percentage: "74",
+    percentage: "70",
   },
   {
     id: "03",
@@ -25,7 +25,7 @@ const recommendCars = [
     rentPrice: 28,
     retweet: "130",
     imgUrl: car3,
-    percentage: "74",
+    percentage: "66",
   },
 ];
 

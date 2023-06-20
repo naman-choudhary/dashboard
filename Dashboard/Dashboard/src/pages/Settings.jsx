@@ -1,8 +1,10 @@
 import React from "react";
+import Animate from "../Animate";
 import "../styles/settings.css";
 
 const Settings = () => {
   return (
+    <Animate>
     <div className="settings">
       <div className="settings__wrapper">
         <h2 className="settings__title">Settings</h2>
@@ -75,6 +77,7 @@ const Settings = () => {
         </div>
       </div>
     </div>
+    </Animate>
   );
 };
 

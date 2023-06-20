@@ -1,4 +1,5 @@
 import React from "react";
+import Animate from "../Animate";
 import "../styles/dashboard.css";
 import SingleCard from "../components/reuseable/SingleCard";
 
@@ -34,6 +35,7 @@ const distanceObj = {
 
 const Dashboard = () => {
   return (
+    <Animate>
     <div className="dashboard">
       <div className="dashboard__wrapper">
         <div className="dashboard__cards">
@@ -62,6 +64,7 @@ const Dashboard = () => {
         </div>
       </div>
     </div>
+    </Animate>
   );
 };
 
